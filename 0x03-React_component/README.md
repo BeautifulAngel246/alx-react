@@ -274,6 +274,5 @@ Repo:
 
 GitHub repository: alx-react
 Directory: 0x03-React_component
-File: task_5/dashboard/src/Notifications/Notifications.test.js
-Copyright © 2024 ALX, All rights reserved.
+File: task_5/dashbo
 
