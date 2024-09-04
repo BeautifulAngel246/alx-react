@@ -191,6 +191,20 @@ const styles = StyleSheet.create({
 export const mapStateToProps = (state) => {
   return {
     isLoggedIn: state.get("isUserLoggedIn"),
+    displayDrawer: state.ui.get("isNotificationDrawerVisible"),
+  };
+};
+
+const mapDispatchToProps = {
+  displayNotificationDrawer,
+  hideNotificationDrawer,
+  login: loginRequest,
+  logout,
+};
+
+// export default App;
+
+export default connect(mapStateToProps, mapDispatchToProps)(App);
   };
 };
 
